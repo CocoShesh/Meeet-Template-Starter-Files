@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+
+body {
+  background: #003142;
+  margin: 1rem 8rem;
+  height: 100vh;
+}
+.user-avatar1 {
+  position: relative;
+  width: 100%;
+}
+.user-avatar1 div:first-child img {
+  top: 51px;
+  left: -7.5%;
+  position: absolute;
+}
+.user-avatar1 div:nth-child(2) img {
+  position: absolute;
+  right: 33%;
+  top: 20px;
+}
+.user-avatar1 div:nth-child(3) img {
+  position: absolute;
+  right: 15%;
+  top: -20px;
+}
+.user-avatar2 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.user-avatar2 div:nth-child(1) img {
+  position: absolute;
+  top: 48%;
+  right: 45%;
+}
+.user-avatar2 div:nth-child(2) img {
+  position: absolute;
+  top: 46%;
+  right: 16.2%;
+}
+.user-avatar2 div:nth-child(3) img {
+  position: absolute;
+  top: 78%;
+  right: 18%;
+  width: 200px;
+}
+section {
+  position: absolute;
+  top: 9%;
+}
+h1 {
+  font-family: "Sen", sans-serif;
+  position: relative;
+  font-size: 7.5rem;
+  color: #33f3c7;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+p {
+  font-family: "Sen", sans-serif;
+  color: #97b2c1;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  width: 320px;
+}
+button {
+  font-family: "Sen", sans-serif;
+  width: 200px;
+  background: #33f3c7;
+  border-radius: 5px;
+  height: 50px;
+  margin-left: 2rem;
+  font-size: 15px;
+  border: none;
+}
+.twitter {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  display: flex;
+  cursor: pointer;
+}
+span {
+  font-family: "Sen", sans-serif;
+  color: #33f3c7;
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+}
+/* CSS rules for Mobile */
+@media screen and (max-width: 374px) {
+  .user-avatar1 div:nth-child(2) img,
+  .user-avatar2 div:nth-child(2) img,
+  .user-avatar2 div:nth-child(3) img {
+    display: none;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  header img {
+    margin: 1rem 2rem;
+  }
+  h1 {
+    margin-top: 7rem;
+    font-size: 3rem;
+  }
+  .user-avatar1 div:first-child img {
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    top: 0;
+  }
+  .user-avatar1 div:nth-child(3) img {
+    right: 10px;
+
+    top: 0;
+  }
+  .twitter {
+    margin-top: 50%;
+  }
+
+  .user-avatar2 div:nth-child(1) img {
+    right: 10%;
+    top: 52%;
+  }
+}
+
+/* CSS rules for tablets */
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  header img {
+    margin: 1rem 2rem;
+  }
+  h1 {
+    margin-top: 7rem;
+    font-size: 3rem;
+  }
+  .user-avatar1 div:first-child img {
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    top: 0;
+  }
+  .user-avatar1 div:nth-child(2) img,
+  .user-avatar2 div:nth-child(2) img,
+  .user-avatar2 div:nth-child(1) img {
+    width: 90px;
+    height: 100px;
+  }
+  .user-avatar2 div:nth-child(2) img {
+    top: 15%;
+    right: 0;
+  }
+  .user-avatar1 div:nth-child(2) img {
+    right: 30%;
+    top: 50px;
+  }
+  .user-avatar2 div:nth-child(1) img {
+    top: 45%;
+    right: 20%;
+  }
+  .user-avatar1 div:nth-child(3) img {
+    width: 100px;
+    right: 20px;
+    top: -50px;
+  }
+  .user-avatar2 div:nth-child(3) img {
+    top: 70%;
+    right: 0%;
+  }
+  .twitter {
+    margin-top: 60%;
+  }
+}
