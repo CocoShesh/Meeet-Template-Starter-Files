@@ -128,7 +128,7 @@ span {
 }
 
 /* CSS rules for tablets */
-@media screen and (min-width: 375px) and (max-width: 1023px) {
+@media screen and (min-width: 375px) and (max-width: 720px) {
   body {
     margin: 0;
     height: 100vh;
@@ -137,8 +137,9 @@ span {
     margin: 1rem 2rem;
   }
   h1 {
+    width: 700px;
     margin-top: 7rem;
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .user-avatar1 div:first-child img {
     width: 100px;
@@ -153,27 +154,27 @@ span {
     height: 100px;
   }
   .user-avatar2 div:nth-child(2) img {
-    top: 15%;
-    right: 0;
+    top: 25%;
+    right: 10%;
   }
   .user-avatar1 div:nth-child(2) img {
-    right: 30%;
-    top: 50px;
+    right: 29%;
+    top: 70px;
   }
   .user-avatar2 div:nth-child(1) img {
-    top: 45%;
-    right: 20%;
+    top: 43%;
+    right: 30%;
   }
   .user-avatar1 div:nth-child(3) img {
     width: 100px;
-    right: 20px;
+    right: 20%;
     top: -50px;
   }
   .user-avatar2 div:nth-child(3) img {
     top: 70%;
-    right: 0%;
+    right: 30%;
   }
   .twitter {
-    margin-top: 60%;
+    margin-top: 30%;
   }
 }
